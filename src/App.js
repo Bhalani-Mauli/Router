@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+// import Fullcart from './Componant/Fullcart';
+// import Calculator from './Componant/Calculator/Calculator';
+// import New1 from './Componant/Calculator/New1';
+//import Simplecalculator from './Componant/Simplecalculator/Simplecalculator';
+//import Movies from './Componant/Movie/Movies';
+//import Movies from './Componant/listofmovies/Movies';
+//import Route from './Componant/Route';
+//import Movies1 from './Componant/listofmovies1/Movies1';
+import Router from './Componant/Router';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <Fullcart/> */}
+     {/* <Calculator/> */}
+     {/* <New1/> */}
+      {/* <Simplecalculator/>  */}
+     {/* <Movies/> */}
+     {/* <Movies/> */}
+     <Router/>
+     
     </div>
   );
 }
